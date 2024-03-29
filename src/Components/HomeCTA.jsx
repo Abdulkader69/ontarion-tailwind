@@ -9,7 +9,7 @@ export const HomeCTA = () => {
         src={ctaBG}
         alt="ctaBG"
       />
-      <div className="wrapper w-full flex flex-wrap">
+      <div className="wrapper w-full flex flex-wrap relative z-20">
         <div className="w-1/2 flex h-full">
           <img
             className="h-full w-full object-cover object-right-bottom"
@@ -18,7 +18,7 @@ export const HomeCTA = () => {
           />
         </div>
         <div className="w-1/2 h-full flex items-center pl-20 pr-5 py-28">
-          {/* <div className="inner text-white w-full max-w-[700px]">
+          <div className="inner text-white w-full max-w-[700px]">
             <p className="sub-headline text-[21px] font-semibold leading-none tracking-wider uppercase mb-[18px]">
               Featured Event
             </p>
@@ -43,7 +43,7 @@ export const HomeCTA = () => {
                 GET TICKETS
               </a>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

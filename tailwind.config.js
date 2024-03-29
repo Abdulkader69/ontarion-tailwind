@@ -6,6 +6,7 @@ module.exports = {
       spacing: {
         '10px': '10px',
         '30px': '30px',
+        '50px': '50px',
         '55px': '55px',
         '60px': '60px',
         '100px': '100px',
@@ -27,6 +28,7 @@ module.exports = {
           'background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.7%, #000 94.94%), url(<path-to-image>) lightgray 50% / cover no-repeat;',
       },
       lineHeight: {
+        '118%': '118%',
         '133%': '133%',
         '175%': '175%',
       },
