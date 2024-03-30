@@ -22,6 +22,7 @@ module.exports = {
       },
       colors: {
         Black: '#191919',
+        Orange: '#FF9200',
       },
       backgroundImage: {
         'overlay-1':
@@ -34,5 +35,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')({
+      modifiers: [],
+    }),
+  ],
 };
